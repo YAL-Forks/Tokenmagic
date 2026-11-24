@@ -43,6 +43,7 @@ import { FilterDDTint } from '../fx/filters/FilterDDTint.js';
 import { FilterCRT } from '../fx/filters/FilterCRT.js';
 import { FilterRGBSplit } from '../fx/filters/FilterRGBSplit.js';
 import { FilterColorGradient } from '../fx/filters/FilterColorGradient.js';
+import { FilterColorMatrix } from '../fx/filters/FilterColorMatrix.js';
 
 export const FilterType = {
 	adjustment: FilterAdjustment,
@@ -90,4 +91,5 @@ export const FilterType = {
 	replaceColor: FilterReplaceColor,
 	ddTint: FilterDDTint,
 	rgbSplit: FilterRGBSplit,
+	colorMatrix: FilterColorMatrix,
 };
